@@ -76,3 +76,14 @@ a:hover {
 a:visited {
     color: #284947;
 }
+
+::-moz-selection { 
+    /* Code for Firefox */
+    color: white;
+    background: #197278;
+  }
+  
+  ::selection {
+    color: white;
+    background: #197278;
+  }
